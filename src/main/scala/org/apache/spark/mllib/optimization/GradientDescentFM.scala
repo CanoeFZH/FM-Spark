@@ -238,7 +238,7 @@ object GradientDescentFM {
         },
         combOp = (c1, c2) => {
           c1 + c2
-        }, 2)
+        }, 7)
 
       weights = Vectors.dense(wSum.toArray.map(_ / slices))
 
